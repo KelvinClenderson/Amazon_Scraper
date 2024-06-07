@@ -1,5 +1,5 @@
 # Amazon Scraper 
-Este é um raspador simples do site da Amazon.com, foi criado com base em um desafio tecnico imposto por uma vaga de estagio Backend
+This is a simple scraper for the Amazon.com website, it was created based on a technical challenge imposed by a Backend internship vacancy
 ## Overview
 
 This project provides a basic scraper to extract product listings from the first page of Amazon search results for a given keyword. It's designed for educational purposes and personal use.
@@ -31,14 +31,16 @@ This project provides a basic scraper to extract product listings from the first
 ### Running the Scraper
 
 1. **Start the Server:**
-
    ```bash
-   npm start
+   npm run start:dev
    ```
+2. **Start the Watch Server:**
+   ```bash
+   npm run start:server:watch
+   ```
+3. **Verify Server Startup:**
 
-2. **Verify Server Startup:**
-
-   Open your web browser and navigate to `http://localhost:3000`. You should see a basic message indicating the server is running.
+   Open your web browser and navigate to `http://localhost:4000`. You should see a basic message indicating the server is running.
 
 ### Scraper Endpoint
 

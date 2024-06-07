@@ -1,7 +1,7 @@
 {
   "name": "estagio-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a simple scraper for the Amazon.com website, it was created based on a technical challenge imposed by a Backend internship vacancy",
   "main": "index.js",
   "type": "module",
   "scripts": {
