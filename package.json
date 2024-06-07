@@ -1,0 +1,19 @@
+{
+  "name": "estagio-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "node src/routes/amazon-route.js",
+    "start:server:watch": "node --watch src/routes/amazon-route.js"
+  },
+  "keywords": [],
+  "author": "Kelvin Clenderson",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "jsdom": "^24.1.0"
+  }
+}
