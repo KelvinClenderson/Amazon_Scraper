@@ -30,10 +30,10 @@ document.getElementById("scrapeButton").addEventListener("click", async () => {
       const productDiv = document.createElement("div");
       productDiv.classList.add("product");
       productDiv.innerHTML = `
+        <img src="${product.imageUrl}" alt="${product.title}">
         <h2>${product.title}</h2>
         <p>Rating: ${product.rating}</p>
         <p>Reviews: ${product.reviewCount}</p>
-        <img src="${product.imageUrl}" alt="${product.title}">
       `;
       resultsDiv.appendChild(productDiv);
     });
